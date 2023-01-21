@@ -1,10 +1,12 @@
 
+
+
+
 .section__3 {
     background-color: #F7F7F7;
     display: flex;
     justify-content: center;
     padding: 105px 0;
-
 }
 
 .section__3__container {
@@ -27,6 +29,8 @@
     align-items: center;
 }
 
+/*IMAGES*/
+
 .article.white.one img {
     width: 30%;
     padding-right: 110px;
@@ -34,6 +38,13 @@
     position: relative;
     right: 50px;
 }
+
+.article.white.two img {
+    width: 35%;
+    position: relative;
+    left: 60px;
+}
+/*GEOMETRICS FIGURES*/
 
 .diamond {
     width: 160px;
@@ -46,11 +57,17 @@
 }
 
 .article.white .circle {
-    width: 320px;
-    height: 320px;
+    width: 290px;
+    height: 290px;
     border-radius: 50%;
     background-color: var(--color-blue);
+    position: absolute;
+    left: 410px;
+    top: 1945px;
 }
+
+/*ARTICLE TEXT STYLES*/
+
 .article__wrap h2 {
     font-family: var(--font-titles);
     font-size: var(--size-titles-h2);
@@ -67,12 +84,24 @@
     color: var(--color-black);
     /*position: relative;*/
 }
+
+/*LINES*/
+
 .line {
     width: 328px;
     height: 3px;
-    background-color: var(--color-pink);
     margin-top: 50px;
 }
+.article.one .line {
+    background-color: var(--color-pink);
+}
+.article.two .line {
+    background-color: var(--color-blue);
+}
+.article.three .line {
+    background-color: var(--color-green);
+}
+
 
 .article__wrap.transparent {
     background-color: #F7F7F7;
@@ -88,6 +117,8 @@
 .article__wrap p.different {
     max-width: 555px;
 }
+
+/*LAST PART OF ARTICLES*/
 
 .block {
     width: 440px;
