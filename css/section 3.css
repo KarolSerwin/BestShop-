@@ -82,7 +82,6 @@
     font-family: var(--font-text);
     font-size: var(--size-paragraphs);
     color: var(--color-black);
-    /*position: relative;*/
 }
 
 /*LINES*/
@@ -106,19 +105,28 @@
 .article__wrap.transparent {
     background-color: #F7F7F7;
 }
-.article__wrap {
+.article__wrap.one, .article__wrap.three {
     background-color: #ffffff;
     padding-left: 35px;
 }
+.article__wrap.two {
+    padding-right: 35px;
+}
+
 
 .article__wrap h2.three {
     max-width: 350px;
+    padding-top: 69px;
 }
 .article__wrap p.different {
     max-width: 555px;
 }
 
-/*LAST PART OF ARTICLES*/
+/*LAST ARTICLE*/
+
+.article.three .article__wrap {
+
+}
 
 .block {
     width: 440px;
