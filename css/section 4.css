@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .section__4__container {
@@ -12,20 +13,24 @@
     margin: 0 auto 50px auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .pricing__block {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
 .pricing__block.small {
     width: 372px;
+    height: 461px;
+   /* margin-top: 20px;*/
 }
 .pricing__block.central {
     width: 405px;
+    height: 500px;
 }
 
 /*MAIN TITLE*/
@@ -46,6 +51,7 @@
 .pricing__block.central {
     border: 1px solid var(--color-blue);
     border-radius: 18px;
+    box-shadow: 5px 10px 27px #07ACE629;
 }
 .pricing__block.small.right{
     border: 1px solid var(--color-green);
@@ -59,7 +65,7 @@
     font-weight: 700;
     color: #13253B;
     font-size: var(--size-pricing-title);
-    padding: 34px 0 14px 0;
+    /*padding: 34px 0 20px 0;*/
 }
 
 .pricing__block__number {
@@ -123,21 +129,66 @@
 /*LISTS STYLING*/
 
 /*LEFT*/
-.left .pricing__block__number {
-    padding-bottom: 69px;
+.left .pricing__block__title, .right .pricing__block__title {
+    padding: 34px 0 20px 0;
 }
-.left p {
-    padding-bottom: 20px;
+.left .pricing__block__number, .right .pricing__block__number {
+    padding-bottom: 12px;
 }
-.left p:last-of-type {
+.left span, .right span {
+    padding-bottom: 50px;
+}
+.left p, .right p {
+    padding-bottom: 23px;
+}
+.left p:last-of-type, .right p:last-of-type {
     padding-bottom: 55px;
     position: relative;
 }
-.left a {
+.left a, .right a {
     position: absolute;
-    top: 3368px;
+    top: 3453px;
 }
 
 /*CENTER*/
-
+.central .pricing__block__title {
+    padding: 34px 0 14px 0;
+}
+.central .pricing__block__number {
+    padding-bottom: 20px;
+}
+.central span {
+    padding-bottom: 64px;
+}
+.central p {
+    padding-bottom: 28px;
+}
+.central p:last-of-type {
+    padding-bottom: 53px;
+    position: relative;
+}
+.central a {
+    position: absolute;
+    top: 3470px;
+}
 /*RIGHT*/
+/*
+.right .pricing__block__number {
+    padding-bottom: 20px;
+}
+.right span {
+    padding-bottom: 50px;
+}
+
+.right p {
+    padding-bottom: 23px;
+}
+.right p:last-of-type {
+    !*padding-bottom: 55px;*!
+    position: relative;
+}
+
+.right a {
+    position: absolute;
+    top: 3453px;
+}*/
