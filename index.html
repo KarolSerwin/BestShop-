@@ -16,7 +16,8 @@
     <link rel="stylesheet" href="css/section%202.css">
     <link rel="stylesheet" href="css/section%203.css">
     <link rel="stylesheet" href="css/section%204.css">
-
+    <link rel="stylesheet" href="css/section%205%20contact.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
     <header class="header">
@@ -24,10 +25,10 @@
             <h2 class="header__logo">BestShop</h2>
             <nav class="header__nav">
                 <ul>
-                    <li><a href="">WHY US</a></li>
-                    <li><a href="">BENEFITS</a></li>
-                    <li><a href="">PRICES</a></li>
-                    <li><a href="">CONTACT</a></li>
+                    <li><a href="#whyus">WHY US</a></li>
+                    <li><a href="#benefits">BENEFITS</a></li>
+                    <li><a href="#pricing">PRICES</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </nav>
         </div>
@@ -44,7 +45,7 @@
 
     <!-- SECTION 2-->
 
-    <section class="section__2">
+    <section class="section__2" id="whyus">
         <h2>The most popular sales platform in country</h2>
         <div class="cards__wrapper">
             <div class="card">
@@ -67,7 +68,7 @@
 
        <!-- SECTION 3-->
 
-    <section class="section__3">
+    <section class="section__3" id="benefits">
         <div class="section__3__container">
             <article class="article white one">
                 <div class="article__wrap one">
@@ -89,11 +90,11 @@
             </article>
             <article class="article transparent three">
                 <div class="article__wrap three">
-                    <h2 class="three">Your shop is where you are!</h2>
+                    <h2 class="three">Increase recognition your brand!</h2>
                     <p class="different">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                     <div class="line"></div>
                 </div>
-                <div class="block">
+                <div title="CLICK TO HEAR TRUMPET" class="block">
                     <img src="Assets/Trumpet.png" alt="trumpet drawing">
                 </div>
             </article>
@@ -101,7 +102,7 @@
     </section>
 
     <!-- SECTION 4-->
-    <section class="section__4">
+    <section class="section__4" id="pricing">
         <h2 class="section__4__title">Pricing</h2>
         <div class="section__4__container">
             <div class="pricing__block small left">
@@ -138,13 +139,48 @@
                 <a href="" class="pricing__button">Begin</a>
             </div>
         </div>
-
     </section>
+    <section class="section__5__contact" id="contact">
+        <div class="section__5__container">
+            <div class="data__wrap">
+                <h2>Any questions?</h2>
+                <p>Leave your email address or call us!</p>
+                <div class="tel-mail__wrap">
+                    <a href="mailto: info@bestshop.xyz"><i class="fa-regular fa-envelope"></i>&nbsp;&nbsp;@bestshop.xyz </a>
+                    <a href="tel: 123 456 789"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;123 456 789</a>
+                </div>
+            </div>
+            <form action="" class="form">
+                <label for="name">NAME</label>
+                <input required type="text" name="name" id="name">
+                <label for="email">EMAIL</label>
+                <input required type="email" name="email" id="email">
+                <!--<div class="check-regul__wrap">-->
+                    <label class="checkbox">
+                    <input type="checkbox">
+                        <span></span>
+                        <p>I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the European Parliament’s and Council of the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)</p></label>
+                <!--</div>-->
+                <button type="submit" class="form__button">Send</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__left">
+                <h3>BestShop</h3>
+                <small>&copy; 2019 BestShop LTD, All Rights Reserved</small>
+            </div>
+            <div class="footer__right">
+                <a class="twitter" href="https://twitter.com">
+                    <img src="Assets/Twitter.svg" alt="">
+                </a>
+                <a class="facebook" href="https://facebook.com">
+                    <img src="Assets/Facebook.svg" alt="">
+                </a>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
-
-<!--
-<i class="fa-regular fa-square-check"></i>-->
-
-<!--
-<i class="fa-regular fa-rectangle-xmark"></i>-->

@@ -124,9 +124,6 @@
 
 /*LAST ARTICLE*/
 
-.article.three .article__wrap {
-
-}
 
 .block {
     width: 440px;
@@ -138,3 +135,5 @@
     justify-content: center;
     align-items: center;
 }
+
+
